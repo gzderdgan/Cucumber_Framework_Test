@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: Login Data Driven with Excel
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 27.909 s <<< FAILURE! - in Login Data Driven with Excel
+Login Data Driven with Excel.Login Data Driven Excel #1  Time elapsed: 10.108 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:191)
+	at ✽.check User navigates to MyAccount Page by passing Email and Password with excel row "1"(file:///C:/Users/Gozde%20Erdogan/eclipse-workspace/cucumberproject/cucumberproject/./Features/LoginDDTExcel.feature:9)
+
+Login Data Driven with Excel.Login Data Driven Excel #2  Time elapsed: 5.277 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:191)
+	at ✽.check User navigates to MyAccount Page by passing Email and Password with excel row "2"(file:///C:/Users/Gozde%20Erdogan/eclipse-workspace/cucumberproject/cucumberproject/./Features/LoginDDTExcel.feature:9)
+
+Login Data Driven with Excel.Login Data Driven Excel #3  Time elapsed: 4.577 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:191)
+	at ✽.check User navigates to MyAccount Page by passing Email and Password with excel row "3"(file:///C:/Users/Gozde%20Erdogan/eclipse-workspace/cucumberproject/cucumberproject/./Features/LoginDDTExcel.feature:9)
+
+Login Data Driven with Excel.Login Data Driven Excel #4  Time elapsed: 3.947 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:191)
+	at ✽.check User navigates to MyAccount Page by passing Email and Password with excel row "4"(file:///C:/Users/Gozde%20Erdogan/eclipse-workspace/cucumberproject/cucumberproject/./Features/LoginDDTExcel.feature:9)
+
+Login Data Driven with Excel.Login Data Driven Excel #5  Time elapsed: 3.993 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:191)
+	at ✽.check User navigates to MyAccount Page by passing Email and Password with excel row "5"(file:///C:/Users/Gozde%20Erdogan/eclipse-workspace/cucumberproject/cucumberproject/./Features/LoginDDTExcel.feature:9)
+
